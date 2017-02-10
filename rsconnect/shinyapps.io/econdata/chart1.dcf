@@ -1,0 +1,9 @@
+name: chart1
+account: econdata
+server: shinyapps.io
+appId: 142046
+bundleId: 640507
+url: https://econdata.shinyapps.io/chart1/
+when: 1481190108.21139
+asMultiple: FALSE
+asStatic: FALSE
