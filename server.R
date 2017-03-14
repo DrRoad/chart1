@@ -6,7 +6,7 @@ shinyServer(function(input, output) {
         library(quantmod)
         # load historical prices from Yahoo Finance
         #data = getSymbols(input$symbol, src = 'yahoo', from = '1980-01-01', auto.assign = F)
-        data <- getSymbols(input$symbol, src = 'yahoo')
+        data <- getSymbols(input$symbol, src = 'yahoo', from='1900-01-01')
         #print(get(input$symbol))
         gdata <<- get(input$symbol)
 
